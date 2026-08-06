@@ -1,5 +1,4 @@
 <?php include 'db.php'; ?>
-
 <?php
 if(isset($_POST['save'])){
     $name  = $_POST['name'];
@@ -9,9 +8,7 @@ if(isset($_POST['save'])){
 
     $query = "INSERT INTO contacts(name, phone, email, tag)
               VALUES('$name', '$phone', '$email', '$tag')";
-
     mysqli_query($conn, $query);
-
     header("Location: index.php");
     exit();
 }
