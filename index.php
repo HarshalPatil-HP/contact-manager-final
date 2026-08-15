@@ -11,7 +11,6 @@ $query = "SELECT * FROM contacts
 
 $result = mysqli_query($conn, $query);
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,7 +67,6 @@ $result = mysqli_query($conn, $query);
                     </td>
                 </tr>
             <?php } ?>
-
             </tbody>
         </table>
     </div>
