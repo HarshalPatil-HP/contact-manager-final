@@ -1,12 +1,10 @@
 <?php include 'db.php'; ?>
 
 <?php
-// Search logic
 $search = "";
 if (isset($_GET['search'])) {
     $search = $_GET['search'];
 }
-
 $query = "SELECT * FROM contacts 
           WHERE name LIKE '%$search%' 
           ORDER BY name ASC";
