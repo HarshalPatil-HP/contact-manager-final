@@ -20,9 +20,7 @@ if(isset($_POST['save'])){
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <h2>Add New Contact</h2>
-
 <form method="POST">
     <input type="text" name="name" placeholder="Full Name" required>
     <input type="text" name="phone" placeholder="Phone Number" required>
