@@ -17,7 +17,6 @@ $result = mysqli_query($conn, $query);
 <head>
     <title>Contact Manager</title>
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -28,7 +27,6 @@ $result = mysqli_query($conn, $query);
     <div class="card shadow p-4">
         <h2 class="text-center mb-4">📇 Contact Manager</h2>
 
-        <!-- Search Bar -->
         <form method="GET" class="row g-3 mb-4">
             <div class="col-md-6">
                 <input type="text" name="search" class="form-control" placeholder="Search by name..." value="<?= $search ?>">
