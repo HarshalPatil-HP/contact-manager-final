@@ -25,7 +25,6 @@ if(isset($_POST['save'])){
     <input type="text" name="name" placeholder="Full Name" required>
     <input type="text" name="phone" placeholder="Phone Number" required>
     <input type="email" name="email" placeholder="Email" required>
-
     <select name="tag">
         <option>Family</option>
         <option>Friends</option>
@@ -35,6 +34,5 @@ if(isset($_POST['save'])){
 
     <button name="save">Save Contact</button>
 </form>
-
 </body>
 </html>
