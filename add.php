@@ -10,10 +10,12 @@ if(isset($_POST['save'])){
 
     $query = "INSERT INTO contacts(name, phone, email, tag)
               VALUES('$name', '$phone', '$email', '$tag')";
+    
     mysqli_query($conn, $query);
     header("Location: index.php");
     exit();
 }
+    
 ?>
     
 <!DOCTYPE html>
@@ -22,6 +24,7 @@ if(isset($_POST['save'])){
     <title>Add Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
 <h2>Add New Contact</h2>
 <form method="POST">
@@ -34,7 +37,6 @@ if(isset($_POST['save'])){
         <option>Work</option>
         <option>Other</option>
     </select>
-
     <button name="save">Save Contact</button>
 </form>
 </body>
