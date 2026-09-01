@@ -1,5 +1,7 @@
 <?php include 'db.php'; ?>
+
 <?php
+
 if(isset($_POST['save'])){
     $name  = $_POST['name'];
     $phone = $_POST['phone'];
@@ -13,6 +15,7 @@ if(isset($_POST['save'])){
     exit();
 }
 ?>
+    
 <!DOCTYPE html>
 <html>
 <head>
