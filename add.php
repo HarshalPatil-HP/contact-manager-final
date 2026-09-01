@@ -1,5 +1,4 @@
 <?php include 'db.php'; ?>
-
 <?php
 
 if(isset($_POST['save'])){
@@ -14,10 +13,9 @@ if(isset($_POST['save'])){
     mysqli_query($conn, $query);
     header("Location: index.php");
     exit();
-}
-    
+}    
 ?>
-    
+
 <!DOCTYPE html>
 <html>
 <head>
