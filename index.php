@@ -10,6 +10,8 @@ $query = "SELECT * FROM contacts
 
 $result = mysqli_query($conn, $query);
 ?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +39,6 @@ $result = mysqli_query($conn, $query);
             </div>
         </form>
 
-        <!-- Table -->
         <table class="table table-striped table-hover">
             <thead class="table-dark">
                 <tr>
