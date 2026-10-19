@@ -1,7 +1,5 @@
 <?php include 'db.php'; ?>
-
 <?php
-
 if(isset($_POST['save'])){
     $name  = $_POST['name'];
     $phone = $_POST['phone'];
@@ -14,10 +12,9 @@ if(isset($_POST['save'])){
     mysqli_query($conn, $query);
     header("Location: index.php");
     exit();
-}    
-    
+}     
 ?>
-
+    
 <!DOCTYPE html>
 <html>
 <head>
