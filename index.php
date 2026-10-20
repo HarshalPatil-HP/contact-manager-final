@@ -45,7 +45,6 @@ $result = mysqli_query($conn, $query);
                 </tr>
             </thead>
             <tbody>
-
             <?php while ($row = mysqli_fetch_assoc($result)) { ?>
                 <tr>
                     <td><?= $row['name'] ?></td>
