@@ -10,8 +10,6 @@ $query = "SELECT * FROM contacts
 
 $result = mysqli_query($conn, $query);
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
