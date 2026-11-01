@@ -1,4 +1,5 @@
 <?php include 'db.php'; ?>
+
 <?php
 $search = "";
 if (isset($_GET['search'])) {
@@ -10,6 +11,7 @@ $query = "SELECT * FROM contacts
 
 $result = mysqli_query($conn, $query);
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
