@@ -1,9 +1,7 @@
 <?php include 'db.php'; ?>
-
 <?php
 $id = $_GET['id'];
 $data = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM contacts WHERE id=$id"));
-
 if(isset($_POST['update'])){
     $name  = $_POST['name'];
     $phone = $_POST['phone'];
@@ -20,7 +18,6 @@ if(isset($_POST['update'])){
     exit();
 }
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
