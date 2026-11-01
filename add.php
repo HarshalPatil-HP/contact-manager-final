@@ -5,7 +5,6 @@ if(isset($_POST['save'])){
     $phone = $_POST['phone'];
     $email = $_POST['email'];
     $tag   = $_POST['tag'];
-
     $query = "INSERT INTO contacts(name, phone, email, tag)
               VALUES('$name', '$phone', '$email', '$tag')";
     
